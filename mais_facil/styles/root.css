@@ -1,0 +1,24 @@
+:root {
+    /* Colors */
+    --cor-fundo-form: #04507D;
+    --branco: #fff;
+    --cor-do-link: #00C2FF;
+    --botao-entrar: #0293EA;
+    --botao-entrar-gov: #E5EEF3;
+    --cinza-medio: #F3F1F1;
+    --cor-texto-sidebar: #0078C0;
+    --texto-de-aviso: #FF7A7A;
+    --card-desativado: #E6E5E5;
+    --text-color-card-desativado: #A0A0A0;
+    --text-color-link-config: #afafaf;
+
+    /* Estilo do container */
+    --radius-container: 40px;
+    --shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.20);
+    --radius-container-form: 0px 40px 40px 0px;
+
+    /* Estilo dos inputs */
+    --input-form-radius: 10px;
+    --input-form-width: 25svw;
+    --input-form-height: 3svh;
+}

@@ -1,0 +1,220 @@
+.container-maior {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-tela-principal {
+    display: flex;
+    flex: 1 1 0%;
+    background-color: var(--branco);
+}
+
+.conteudo-principal {
+    flex: 1 1 0%;
+    background-color: var(--cinza-medio);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17rem;
+    height: 100svh;
+}
+
+.header-sidebar {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.logo-sidebar {
+    width: 9rem;
+    height: 5rem;
+}
+
+.menu-nav {
+    margin: 15px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor-texto-sidebar);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-menu>ul>li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.config {
+    color: var(--text-color-link-config);
+    text-decoration: none;
+}
+
+.cabecalho-principal {
+    width: 100%;
+    height: 5.50rem;
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso {
+    text-align: center;
+    flex: 1 1 0%;
+    color: var(--texto-de-aviso);
+}
+
+.usuario {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.usuario>p {
+    color:  #A0A0A0;
+}
+
+.cards-lista {
+    display: flex;
+    gap: 60px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.card {
+    padding-top: 10px;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 15px;
+    background: var(--branco);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h5 {
+    color: #06B51796;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+small {
+    color: rgba(85, 87, 88, 0.50);
+}
+
+.desativado {
+    background-color: var(--card-desativado);
+}
+
+.desativado>p, .desativado>small, .desativado>h5 {
+    color: var(--text-color-card-desativado);
+}
+
+.situacao-validade {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-avisos {
+    margin-top: 1.25rem;
+    width: 90%;
+    height: 10rem;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-atencao {
+    width: 90%;
+    height: 3rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+    background-color: var(--texto-de-aviso);
+    margin-bottom: 1.5rem;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-de-avisos {
+    color: var(--texto-de-aviso);
+}
+
+.grid-demais-conteudos {
+    margin: 20px 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.emissao-certidoes {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/Rectangle\ 31\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.btn-certidao {
+    justify-self: center;
+    align-self: center;
+    background-color: var(--botao-entrar);
+    width: 70%;
+    height: 5svh;
+    border-radius: var(--input-form-radius);
+    color: var(--branco);
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
